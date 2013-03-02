@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA1EB6216E1B58C006771B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA1EB6116E1B58C006771B6 /* UIKit.framework */; };
+		BAA1EB6416E1B58C006771B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA1EB6316E1B58C006771B6 /* Foundation.framework */; };
+		BAA1EB6616E1B58C006771B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA1EB6516E1B58C006771B6 /* CoreGraphics.framework */; };
+		BAA1EB6C16E1B58C006771B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA1EB6A16E1B58C006771B6 /* InfoPlist.strings */; };
+		BAA1EB6E16E1B58C006771B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA1EB6D16E1B58C006771B6 /* main.m */; };
+		BAA1EB7216E1B58C006771B6 /* DSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA1EB7116E1B58C006771B6 /* DSPAppDelegate.m */; };
+		BAA1EB7416E1B58C006771B6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA1EB7316E1B58C006771B6 /* Default.png */; };
+		BAA1EB7616E1B58C006771B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA1EB7516E1B58C006771B6 /* Default@2x.png */; };
+		BAA1EB7816E1B58C006771B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA1EB7716E1B58C006771B6 /* Default-568h@2x.png */; };
+		BAA1EB7B16E1B58C006771B6 /* DSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA1EB7A16E1B58C006771B6 /* DSPViewController.m */; };
+		BAA1EB7E16E1B58C006771B6 /* DSPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA1EB7C16E1B58C006771B6 /* DSPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAA1EB5D16E1B58C006771B6 /* ThreeButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA1EB6116E1B58C006771B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAA1EB6316E1B58C006771B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAA1EB6516E1B58C006771B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAA1EB6916E1B58C006771B6 /* ThreeButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeButtonTest-Info.plist"; sourceTree = "<group>"; };
+		BAA1EB6B16E1B58C006771B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAA1EB6D16E1B58C006771B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAA1EB6F16E1B58C006771B6 /* ThreeButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		BAA1EB7016E1B58C006771B6 /* DSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPAppDelegate.h; sourceTree = "<group>"; };
+		BAA1EB7116E1B58C006771B6 /* DSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPAppDelegate.m; sourceTree = "<group>"; };
+		BAA1EB7316E1B58C006771B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BAA1EB7516E1B58C006771B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BAA1EB7716E1B58C006771B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BAA1EB7916E1B58C006771B6 /* DSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSPViewController.h; sourceTree = "<group>"; };
+		BAA1EB7A16E1B58C006771B6 /* DSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPViewController.m; sourceTree = "<group>"; };
+		BAA1EB7D16E1B58C006771B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA1EB5A16E1B58C006771B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1EB6216E1B58C006771B6 /* UIKit.framework in Frameworks */,
+				BAA1EB6416E1B58C006771B6 /* Foundation.framework in Frameworks */,
+				BAA1EB6616E1B58C006771B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA1EB5216E1B58C006771B6 = {
+			isa = PBXGroup;
+			children = (
+				BAA1EB6716E1B58C006771B6 /* ThreeButtonTest */,
+				BAA1EB6016E1B58C006771B6 /* Frameworks */,
+				BAA1EB5E16E1B58C006771B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA1EB5E16E1B58C006771B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1EB5D16E1B58C006771B6 /* ThreeButtonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA1EB6016E1B58C006771B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1EB6116E1B58C006771B6 /* UIKit.framework */,
+				BAA1EB6316E1B58C006771B6 /* Foundation.framework */,
+				BAA1EB6516E1B58C006771B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAA1EB6716E1B58C006771B6 /* ThreeButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1EB7016E1B58C006771B6 /* DSPAppDelegate.h */,
+				BAA1EB7116E1B58C006771B6 /* DSPAppDelegate.m */,
+				BAA1EB7916E1B58C006771B6 /* DSPViewController.h */,
+				BAA1EB7A16E1B58C006771B6 /* DSPViewController.m */,
+				BAA1EB7C16E1B58C006771B6 /* DSPViewController.xib */,
+				BAA1EB6816E1B58C006771B6 /* Supporting Files */,
+			);
+			path = ThreeButtonTest;
+			sourceTree = "<group>";
+		};
+		BAA1EB6816E1B58C006771B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAA1EB6916E1B58C006771B6 /* ThreeButtonTest-Info.plist */,
+				BAA1EB6A16E1B58C006771B6 /* InfoPlist.strings */,
+				BAA1EB6D16E1B58C006771B6 /* main.m */,
+				BAA1EB6F16E1B58C006771B6 /* ThreeButtonTest-Prefix.pch */,
+				BAA1EB7316E1B58C006771B6 /* Default.png */,
+				BAA1EB7516E1B58C006771B6 /* Default@2x.png */,
+				BAA1EB7716E1B58C006771B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA1EB5C16E1B58C006771B6 /* ThreeButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA1EB8116E1B58C006771B6 /* Build configuration list for PBXNativeTarget "ThreeButtonTest" */;
+			buildPhases = (
+				BAA1EB5916E1B58C006771B6 /* Sources */,
+				BAA1EB5A16E1B58C006771B6 /* Frameworks */,
+				BAA1EB5B16E1B58C006771B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeButtonTest;
+			productName = ThreeButtonTest;
+			productReference = BAA1EB5D16E1B58C006771B6 /* ThreeButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA1EB5416E1B58C006771B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DSP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yyyyy;
+			};
+			buildConfigurationList = BAA1EB5716E1B58C006771B6 /* Build configuration list for PBXProject "ThreeButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAA1EB5216E1B58C006771B6;
+			productRefGroup = BAA1EB5E16E1B58C006771B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA1EB5C16E1B58C006771B6 /* ThreeButtonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA1EB5B16E1B58C006771B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1EB6C16E1B58C006771B6 /* InfoPlist.strings in Resources */,
+				BAA1EB7416E1B58C006771B6 /* Default.png in Resources */,
+				BAA1EB7616E1B58C006771B6 /* Default@2x.png in Resources */,
+				BAA1EB7816E1B58C006771B6 /* Default-568h@2x.png in Resources */,
+				BAA1EB7E16E1B58C006771B6 /* DSPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA1EB5916E1B58C006771B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA1EB6E16E1B58C006771B6 /* main.m in Sources */,
+				BAA1EB7216E1B58C006771B6 /* DSPAppDelegate.m in Sources */,
+				BAA1EB7B16E1B58C006771B6 /* DSPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAA1EB6A16E1B58C006771B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA1EB6B16E1B58C006771B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAA1EB7C16E1B58C006771B6 /* DSPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA1EB7D16E1B58C006771B6 /* en */,
+			);
+			name = DSPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAA1EB7F16E1B58C006771B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAA1EB8016E1B58C006771B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA1EB8216E1B58C006771B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeButtonTest/ThreeButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "ThreeButtonTest/ThreeButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAA1EB8316E1B58C006771B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeButtonTest/ThreeButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "ThreeButtonTest/ThreeButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA1EB5716E1B58C006771B6 /* Build configuration list for PBXProject "ThreeButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1EB7F16E1B58C006771B6 /* Debug */,
+				BAA1EB8016E1B58C006771B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA1EB8116E1B58C006771B6 /* Build configuration list for PBXNativeTarget "ThreeButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA1EB8216E1B58C006771B6 /* Debug */,
+				BAA1EB8316E1B58C006771B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA1EB5416E1B58C006771B6 /* Project object */;
+}
